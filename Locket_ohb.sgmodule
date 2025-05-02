@@ -1,13 +1,13 @@
-#!url=https://raw.githubusercontent.com/Duynguyen123x/111b55a07597cabe/refs/heads/main/Locket_ohb.sgmodule?token=GHSAT0AAAAAADA3CEEN6QQ3AIFODY42PAXY2AUJPKA
+#!url=https://raw.githubusercontent.com/Duynguyen123x/111b55a0/refs/heads/main/Locket_ohb.sgmodule
 #!name=Locket-Gold
 #!desc=Crack By Duynguyenx
 
 [Script]
 # ~ By Duynguyenx
 # ～ Egern transfer to Shadowrocket & Surge & LanceX
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Duynguyen123x/111b55a07597cabe/refs/heads/main/Locket.js?token=GHSAT0AAAAAADA3CEEMWYHUJAYC6NECHJEQ2AUJW4Q, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Duynguyen123x/111b55a0/refs/heads/main/Locket.js, requires-body=true, max-size=-1, timeout=60
 
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Duynguyen123x/111b55a07597cabe/refs/heads/main/deleteHeader.js?token=GHSAT0AAAAAADA3CEEN5DJ4DYF7PWTCYGKM2AUJYXA, timeout=60
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Duynguyen123x/111b55a0/refs/heads/main/deleteHeader.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
